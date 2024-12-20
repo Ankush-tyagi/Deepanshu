@@ -1,0 +1,101 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+.box{
+    height: 100%;
+    width: 100%;
+}
+
+.box6{
+    display: flex;
+    height: 300px;
+    width: 230px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+
+
+
+    
+}
+.box6:hover{
+    z-index: 10;
+}
+#box1{
+    z-index: 4;
+    transform: translate(-50%,-50%);
+    
+}
+#box1 img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box2 img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box3 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box4 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box2{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotate(-5deg);
+    background-color: aqua;
+
+}
+#box3{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-14deg);
+    background-color: rgb(239, 10, 117);
+
+}
+#box4{
+
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-21deg);
+    background-color: rgb(255, 196, 0);
+
+}
+#box1:hover{
+    z-index: 10;
+}
+#box2:hover{
+    z-index: 10;
+}
+#box3:hover{
+    z-index: 10;
+}
+
+#box4:hover{
+    z-index: 10;
+}
